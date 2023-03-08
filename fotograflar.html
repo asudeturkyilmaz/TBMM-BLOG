@@ -1,0 +1,183 @@
+<html>
+<head> <title> travel agency </title>
+<style type="text/css">
+
+.myDiv {
+border: 15px solid lightgray;
+background-color: white;    
+text-align:left;
+height:850;
+width:700;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+p.baslik{color:#800000; font-family:"seriff"; font-size:22px; text-align:justify; margin:50px;}
+
+p.bir{font-family:"seriff"; font-size:16px; text-align:justify; margin:50px; margin-left:50;}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 100%;
+  height: calc(20% - 2vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10%;
+  line-height: 2;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 70%;
+  height: 30%;
+}
+ 
+
+img.foto{ width:280; height:160; margin:50px;} <br>
+
+
+.center {
+    margin-left: 50px;
+    margin-right: auto;
+    display: block
+}
+
+
+.youDiv{
+border: 15px solid lightgray;
+background-color: white;
+text-align:left;
+height:200;
+width:700;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+img.fotoo1{ width:170; height:70; margin:50px;}
+img.fotoo2{ width:70; height:70; margin:50px; float:center;}
+p.yazi {float:center; margin:-100 10px 10px 400; font-size:18px;}
+img.fotoo3{ width:90; height:90; margin:-60px 0px 0px 500; float:center;}
+p.yazi2 {float:center; margin:-80 10px 10px 600; font-size:18px;}
+
+
+
+.navigation_bar ul {
+list-style-type: none;
+margin: 5;
+padding: 40;
+overflow: hidden;
+background-color: #333;
+background-image: url(son2.png); 
+background-repeat: no-repeat;
+background-size:cover;
+float: center;
+width:650;
+hegiht:500;
+}
+
+.navigation_bar li {
+  float: left;
+}
+
+.navigation_bar li a {
+  display: block;
+  color: white;
+  text-valign : bottom;
+  padding: 10px 10px;
+  text-decoration: none;
+
+}
+
+.navigation_bar li a:hover:not(.active) {
+  color: #111; text-decoration: underline;
+}
+
+.navigation_bar .active {
+  background-color: #708090;
+}
+
+
+
+
+
+</style>
+</head>
+
+
+
+<body bgcolor="#800000">
+
+
+<div class="navigation_bar" align="center">
+<ul>
+<li><a href="anasayfa.html" target="blank">Anasayfa</a></li>
+<li><a href="tarihce.html" target="blank">Tarihçe</a></li>
+<li><a href="fotograflar.html" target="blank">Fotoğraflar</a></li>
+<li><a href="videolar.html" target="blank">Videolar</a></li>
+<li><a href="iletisim.html" target="blank">İletişim</a></li>
+</ul>
+</div>
+
+
+
+<div class="myDiv">
+<p class="baslik"> Meclis Fotoğraflarına Hoşgeldiniz </p>
+<p class="bir">
+Türkiye Büyük Millet Meclisi (TBMM), 23 Nisan 1920'de Osmanlı Devleti'nin İtilaf Devletleri'nce işgaline direniş göstermek üzere Türk milletinin ortaya koyduğu irade ile kurulan, asli görevi yürütmeyi denetlemek olan ve yasama erkini kullanan Türkiye Cumhuriyeti'nin anayasal devlet organıdır.
+</p>
+
+
+  <div class="box">
+    <img src="https://www.tbmm.gov.tr/anasayfa/galeri/OrtaKaliteResimler/res1.jpg">
+    <span>TBMM Yeni</span>
+  </div>
+    <div class="box">
+    <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2019/04/22/thumbs_b_c_9fb81cf6e521a4ea0917b4247ac8e85a.jpg">
+    <span>TBMM Açılışı</span>
+  </div>
+
+
+
+</div>
+
+
+<br>
+
+
+<div class="youDiv">
+<img class="fotoo1" src="logo.png" alt="" >
+<img class="fotoo2" src="edevlet.png" alt="" >
+<p class="yazi" > E-devlet </p>
+<img class="fotoo3" src="tbmmlogo.png" alt="" >
+<p class="yazi2" > Türkiye <br> Büyük <br> Millet <br> Meclisi </p>
+
+
+</div>
+
+
+</body>
+</html>
